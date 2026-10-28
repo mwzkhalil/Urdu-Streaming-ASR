@@ -10,6 +10,8 @@
 <!-- URDU_ASR_BRANDING_END -->
 ### Compact Urdu Speech Recognition with Zipformer
 
+**Author and maintainer:** Muhammad Mahwiz Khalil ([mwzkhalil](https://github.com/mwzkhalil)) · Proxima AI
+
 An open-source Urdu automatic speech recognition project
 built around a streaming Zipformer transducer.
 
@@ -236,31 +238,37 @@ Bundled Icefall modules retain their original copyright and license notices in [
 
 ## Citation
 
-If you use the code, cite the software below. If you use the pretrained model, cite the model as well. No journal paper or DOI is implied by these citations.
+**Author:** Muhammad Mahwiz Khalil
 
-**Source code**
+**Organization:** Proxima AI
+
+**Year:** 2026
+
+If you use this project's software, please cite:
 
 ```bibtex
 @software{khalil2026urdustreamingasr,
   author = {Khalil, Muhammad Mahwiz},
-  title = {Urdu Streaming ASR: A Compact Zipformer Transducer for Urdu Speech Recognition},
+  title = {Urdu Streaming ASR},
   year = {2026},
-  url = {https://github.com/mwzkhalil/Urdu-Streaming-ASR},
-  note = {Source code, training, inference, and evaluation resources}
+  url = {https://github.com/mwzkhalil/Urdu-Streaming-ASR}
 }
 ```
 
-**Pretrained model**
+If you use the released model weights, please cite:
 
 ```bibtex
 @misc{khalil2026urdustreamingzipformer,
   author = {Khalil, Muhammad Mahwiz},
   title = {Urdu Streaming Zipformer 20M},
   year = {2026},
-  howpublished = {Hugging Face model repository},
   url = {https://huggingface.co/mahwizzzz/Urdu-Streaming-Zipformer-20M},
-  note = {Verified model release v1.2.0-rc1}
+  note = {Verified release v1.2.0-rc1}
 }
 ```
 
-GitHub also provides a **Cite this repository** control via [CITATION.cff](CITATION.cff). The Zipformer/Icefall architecture and any reused datasets should be cited independently under their own terms.
+The project builds upon Icefall and Zipformer. Please also cite
+the relevant upstream research and implementations.
+
+See [CITATION.cff](CITATION.cff) for machine-readable citation
+metadata and [NOTICE](NOTICE) for copyright attribution.
