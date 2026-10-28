@@ -1,5 +1,8 @@
 # Urdu Streaming ASR
 
+**Project author:** [Muhammad Mahwiz Khalil](https://github.com/mwzkhalil) (Proxima AI)
+
+
 
 <!-- URDU_ASR_BRANDING_START -->
 [![Model](https://img.shields.io/badge/Hugging%20Face-Model-F4C44E?logo=huggingface&logoColor=black)](https://huggingface.co/mahwizzzz/Urdu-Streaming-Zipformer-20M)
@@ -243,13 +246,47 @@ from the open-source Icefall project. Applicable
 third-party copyright and license notices are
 retained alongside bundled source files.
 
+## Authors and attribution
+
+**Project author and maintainer:** **Muhammad Mahwiz Khalil** (Proxima AI)  
+GitHub: [@mwzkhalil](https://github.com/mwzkhalil) · Hugging Face: [@mahwizzzz](https://huggingface.co/mahwizzzz)
+
+This project integrates original Urdu ASR work with upstream open-source components. Copyright and authorship claims here apply to original project-specific contributions, not to third-party code or datasets.
+
 ## License
 
-See [LICENSE](LICENSE) and the upstream license
-included in `third_party/icefall_recipe/`.
+Original project-specific source code: **Copyright © 2026 Muhammad Mahwiz Khalil**.  
+Licensed under **Apache License 2.0**; see [LICENSE](LICENSE) and [NOTICE](NOTICE) for copyright and attribution.  
+Bundled Icefall modules retain their original copyright and license notices in [third_party/icefall_recipe/](third_party/icefall_recipe/).  
+[Model weights](https://huggingface.co/mahwizzzz/Urdu-Streaming-Zipformer-20M) and [training-data sources](https://huggingface.co/datasets/mahwizzzz/Urdu-Streaming-ASR-Data) have their own applicable terms; the source-code license does not automatically apply to them.
 
 ## Citation
 
-Please cite the associated project and upstream
-architecture according to the available research
-and license documentation.
+If you use the code, cite the software below. If you use the pretrained model, cite the model as well. No journal paper or DOI is implied by these citations.
+
+**Source code**
+
+```bibtex
+@software{khalil2026urdustreamingasr,
+  author = {Khalil, Muhammad Mahwiz},
+  title = {Urdu Streaming ASR: A Compact Zipformer Transducer for Urdu Speech Recognition},
+  year = {2026},
+  url = {https://github.com/mwzkhalil/Urdu-Streaming-ASR},
+  note = {Source code, training, inference, and evaluation resources}
+}
+```
+
+**Pretrained model**
+
+```bibtex
+@misc{khalil2026urdustreamingzipformer,
+  author = {Khalil, Muhammad Mahwiz},
+  title = {Urdu Streaming Zipformer 20M},
+  year = {2026},
+  howpublished = {Hugging Face model repository},
+  url = {https://huggingface.co/mahwizzzz/Urdu-Streaming-Zipformer-20M},
+  note = {Verified model release v1.2.0-rc1}
+}
+```
+
+GitHub also provides a **Cite this repository** control via [CITATION.cff](CITATION.cff). The Zipformer/Icefall architecture and any reused datasets should be cited independently under their own terms.

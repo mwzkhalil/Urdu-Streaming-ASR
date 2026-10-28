@@ -1,0 +1,15 @@
+Urdu Streaming ASR — Copyright and Attribution
+
+Original project-specific source code, documentation, and modifications:
+Copyright © 2026 Muhammad Mahwiz Khalil (Proxima AI)
+https://github.com/mwzkhalil/Urdu-Streaming-ASR
+
+Licensed as indicated by the repository's Apache License 2.0.
+
+This work incorporates components derived from Icefall / k2, which retain their
+original copyrights, authorship, and license notices. See
+third_party/icefall_recipe/LICENSE and original file headers. No ownership of
+those upstream components is claimed here.
+
+The pretrained model and upstream speech corpora are separate artifacts and
+are subject to their published license and redistribution terms.

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this citation."
+type: software
+title: "Urdu Streaming ASR: A Compact Zipformer Transducer for Urdu Speech Recognition"
+authors:
+  - family-names: "Khalil"
+    given-names: "Muhammad Mahwiz"
+    affiliation: "Proxima AI"
+    website: "https://github.com/mwzkhalil"
+version: "0.1.0"
+license: Apache-2.0
+repository-code: "https://github.com/mwzkhalil/Urdu-Streaming-ASR"
+url: "https://github.com/mwzkhalil/Urdu-Streaming-ASR"
