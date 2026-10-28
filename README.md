@@ -22,16 +22,6 @@ The trained model binaries are hosted on Hugging Face.
 
 Verified release: `v1.2.0-rc1`
 
-Available artifacts:
-
-| Component | Format |
-|:--|:--|
-| Selected checkpoint | PyTorch `.pt` |
-| Encoder, decoder, joiner | ONNX FP32 |
-| Quantized encoder, decoder, joiner | ONNX INT8 |
-
-The source repository maintains the tokenizer and
-inference implementation separately from model weights.
 
 ## Installation
 
