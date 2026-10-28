@@ -225,9 +225,6 @@ retained alongside bundled source files.
 
 ## Authors and attribution
 
-**Project author and maintainer:** **Muhammad Mahwiz Khalil** (Proxima AI)  
-GitHub: [@mwzkhalil](https://github.com/mwzkhalil) · Hugging Face: [@mahwizzzz](https://huggingface.co/mahwizzzz)
-
 This project integrates original Urdu ASR work with upstream open-source components. Copyright and authorship claims here apply to original project-specific contributions, not to third-party code or datasets.
 
 ## License
