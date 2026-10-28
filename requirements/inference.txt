@@ -1,0 +1,7 @@
+numpy>=1.24.0
+soundfile>=0.12.1
+sherpa-onnx>=1.10.30
+onnxruntime>=1.18.0
+sentencepiece>=0.2.0
+jiwer>=3.0.4
+pyyaml>=6.0.1

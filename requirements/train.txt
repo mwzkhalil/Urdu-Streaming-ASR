@@ -1,0 +1,18 @@
+--extra-index-url https://download.pytorch.org/whl/cu130
+--find-links https://k2-fsa.github.io/k2/cuda.html
+torch==2.11.0+cu130
+torchaudio==2.11.0+cu130
+k2==1.24.4.dev20260625+cuda13.0.torch2.11.0
+lhotse>=1.24.0
+kaldi-native-fbank>=1.19.0
+sentencepiece>=0.2.0
+onnx>=1.16.0
+onnxruntime>=1.18.0
+sherpa-onnx>=1.10.30
+pyarrow>=15.0.0
+soundfile>=0.12.1
+jiwer>=3.0.4
+huggingface-hub>=0.24.0
+pyyaml>=6.0.1
+tensorboard>=2.16.0
+pytest>=8.0.0

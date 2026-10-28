@@ -1,0 +1,9 @@
+decoding:
+  methods: ["greedy_search", "modified_beam_search"]
+  primary_method: "greedy_search"
+  beam_size: 4
+  decode_chunk_len: 32
+  num_left_chunks: 4
+  context_size: 2
+  max_sym_per_frame: 1
+  max_duration: 200.0

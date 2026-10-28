@@ -1,0 +1,21 @@
+mixture:
+  version: "v1.0"
+  seed: 42
+  temperature_exponent: 0.7
+  caps:
+    max_single_read_speech_share: 0.40
+    max_rasa_share: 0.10
+    max_silver_share: 0.20
+    max_english_only_share: 0.05
+  duration_bounds_sec:
+    min_duration: 0.5
+    max_duration: 25.0
+  quality_thresholds:
+    min_rms: 0.001
+    max_clipping_ratio: 0.05
+    min_chars_per_sec: 1.5
+    max_chars_per_sec: 32.0
+    max_leading_trailing_silence_ratio: 0.85
+  disk_policy:
+    min_free_gib: 40.0
+    max_new_project_gib: 95.0

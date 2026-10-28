@@ -1,0 +1,27 @@
+training:
+  seed: 42
+  world_size: 1
+  use_fp16: true
+  num_epochs: 15
+  start_epoch: 1
+  base_lr: 0.0045
+  encoder_lr_scale: 0.25
+  lr_batches: 3000
+  lr_epochs: 4.0
+  warm_step: 800
+  head_warmup_steps: 400
+  batch_count_offset: 100000.0
+  prune_range: 5
+  lm_scale: 0.25
+  am_scale: 0.0
+  simple_loss_scale: 0.5
+  max_duration: 180.0
+  grad_accum_steps: 2
+  num_buckets: 20
+  enable_spec_aug: true
+  spec_aug_time_warp_factor: 80
+  save_every_n: 1000
+  keep_last_k: 4
+  valid_interval: 1000
+  average_period: 100
+  early_stopping_patience_epochs: 4

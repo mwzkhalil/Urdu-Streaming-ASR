@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "urdu-streaming-asr"
+version = "0.1.0"
+description = "Compact causal Zipformer streaming transducer ASR for Urdu and Urdu-English code-switching"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24.0",
+    "soundfile>=0.12.1",
+    "sentencepiece>=0.1.99",
+    "pyyaml>=6.0",
+    "jiwer>=3.0.0",
+]
+
+[project.optional-dependencies]
+inference = [
+    "sherpa-onnx>=1.10.0",
+    "onnxruntime>=1.17.0",
+]
+
+[project.scripts]
+urdu-asr-transcribe = "urdu_streaming_asr.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

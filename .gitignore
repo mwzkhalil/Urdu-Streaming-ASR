@@ -1,0 +1,25 @@
+
+# Model binaries stored on Hugging Face
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# Generated files
+runs/
+outputs/
+checkpoints/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+*.log
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key

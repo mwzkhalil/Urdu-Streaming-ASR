@@ -1,0 +1,53 @@
+{
+  "example_audio": "examples/sample_urdu.wav",
+  "source_dataset": "google/fleurs (ur_pk validation split, cut_id: fleurs_ur_dev_0006_5)",
+  "source_license": "CC-BY-4.0",
+  "sample_rate_hz": 16000,
+  "duration_sec": 4.74,
+  "reference_transcript_normalized": "زیادہ تر نصرانی فیملی کھلی ہوا میں رہا کرتی تھی",
+  "expected_onnx_fp32_transcript": "زیادہ تر نانی فیملی کھلی ہوا میں رہا کرتی تھی",
+  "expected_onnx_int8_transcript": "زیادہ تر نانی فیملی کھلی ہوا میں رہا کرتی تھی",
+  "expected_streaming_partials_320ms": [
+    {
+      "audio_time_sec": 1.28,
+      "text": "زیادہ"
+    },
+    {
+      "audio_time_sec": 1.6,
+      "text": "زیادہ تر"
+    },
+    {
+      "audio_time_sec": 1.92,
+      "text": "زیادہ تر نصرانی"
+    },
+    {
+      "audio_time_sec": 2.56,
+      "text": "زیادہ تر نصرانی فیملی"
+    },
+    {
+      "audio_time_sec": 2.88,
+      "text": "زیادہ تر نصرانی فیملی کھلی"
+    },
+    {
+      "audio_time_sec": 3.2,
+      "text": "زیادہ تر نصرانی فیملی کھلی ہوا"
+    },
+    {
+      "audio_time_sec": 3.52,
+      "text": "زیادہ تر نصرانی فیملی کھلی ہوا میں"
+    },
+    {
+      "audio_time_sec": 3.84,
+      "text": "زیادہ تر نصرانی فیملی کھلی ہوا میں رہا"
+    },
+    {
+      "audio_time_sec": 4.16,
+      "text": "زیادہ تر نصرانی فیملی کھلی ہوا میں رہا کرتی تھی"
+    },
+    {
+      "audio_time_sec": 4.74,
+      "text": "زیادہ تر نصرانی فیملی کھلی ہوا میں رہا کرتی تھی",
+      "is_final": true
+    }
+  ]
+}

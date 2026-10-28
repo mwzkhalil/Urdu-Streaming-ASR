@@ -1,0 +1,16 @@
+{
+  "vocab_size": 1024,
+  "blank_id": 0,
+  "sos_eos_id": 1,
+  "unk_id": 3,
+  "training_corpus_lines": 2945,
+  "training_corpus_sha256": "b9e879d0e76307de8a710fba8c2f78f735c6623fdf06ed2cc61f6a76570a2bf3",
+  "bpe_model_sha256": "fdfc7b30166c556b90b0d5ab0f48784c514dae58bf6b4f15d15b5ba96360b7c5",
+  "tokens_txt_sha256": "30e7e4361f10cfc2598ce5a6a054669adc52a39bb49266d131227334f874aab9",
+  "sources_included": {
+    "kathbath_ur": 900,
+    "indicvoices_ur": 875,
+    "urduspeech_aslp": 279,
+    "rasa_ur": 199
+  }
+}

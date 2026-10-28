@@ -1,0 +1,83 @@
+sources:
+  common_voice_ur:
+    owner: "Mozilla Common Voice / Mozilla Data Collective"
+    url: "https://mozilladatacollective.com/datasets/cmu5x1w3400cyo107st8cgsoq"
+    revision: "12ad5f359fd94805db1bdaeb1441eb35720221f3c99229034069375fa246d990"
+    config: "ur"
+    label_origin: "human_validated"
+    domain: "read_prompt"
+    license_id: "CC0-1.0-MDC-NoRehost-NoSpeakerID"
+    enabled_by_default: true
+    requires_env_key: "MDC_API_KEY"
+
+  kathbath_ur:
+    owner: "AI4Bharat"
+    url: "https://huggingface.co/datasets/ai4bharat/Kathbath"
+    hf_repo: "ai4bharat/Kathbath"
+    revision: "5b9e92849222026d9141acba4e8434fe816396bf"
+    config: "urdu"
+    label_origin: "human_gold"
+    domain: "read_speech"
+    license_id: "CC-BY-4.0"
+    enabled_by_default: true
+    train_shards: ["urdu/train-00000-of-00017.parquet", "urdu/train-00001-of-00017.parquet", "urdu/train-00002-of-00017.parquet", "urdu/train-00003-of-00017.parquet", "urdu/train-00004-of-00017.parquet"]
+    valid_shards: ["urdu/valid-00000-of-00002.parquet", "urdu/valid-00001-of-00002.parquet"]
+
+  indicvoices_ur:
+    owner: "AI4Bharat"
+    url: "https://huggingface.co/datasets/ai4bharat/IndicVoices"
+    hf_repo: "ai4bharat/IndicVoices"
+    revision: "c96f9088f138cf89d419da7e8e643e1f05c00a87"
+    config: "urdu"
+    label_origin: "human_gold"
+    domain: "spontaneous_conversational_read"
+    license_id: "CC-BY-4.0"
+    enabled_by_default: true
+    train_shards: ["urdu/train-00000-of-00066.parquet", "urdu/train-00001-of-00066.parquet", "urdu/train-00002-of-00066.parquet", "urdu/train-00003-of-00066.parquet", "urdu/train-00004-of-00066.parquet", "urdu/train-00005-of-00066.parquet"]
+    valid_shards: ["urdu/valid-00000-of-00001.parquet"]
+
+  urduspeech_aslp:
+    owner: "ASLP-lab"
+    url: "https://huggingface.co/datasets/ASLP-lab/UrduSpeech"
+    hf_repo: "ASLP-lab/UrduSpeech"
+    revision: "16dd380cfd9049a3db7f06a98e878086916bf833"
+    config: "US-Std+US-CS+US-EngPk"
+    label_origin: "silver_model_validated"
+    domain: "broadcast_podcast_vlog_codeswitch"
+    license_id: "CC-BY-4.0"
+    enabled_by_default: true
+
+  rasa_ur:
+    owner: "AI4Bharat"
+    url: "https://huggingface.co/datasets/ai4bharat/Rasa"
+    hf_repo: "ai4bharat/Rasa"
+    revision: "632f55c7ac590219d41cd7adffce5b440e4604f5"
+    config: "Urdu"
+    label_origin: "human_studio_expressive"
+    domain: "studio_expressive"
+    license_id: "CC-BY-4.0"
+    enabled_by_default: true
+    train_shards: ["Urdu/train-00000-of-00056.parquet", "Urdu/train-00001-of-00056.parquet"]
+    test_shards: ["Urdu/test-00000-of-00007.parquet"]
+
+  fleurs_ur_pk:
+    owner: "Google"
+    url: "https://huggingface.co/datasets/google/fleurs"
+    hf_repo: "google/fleurs"
+    revision: "70bb2e84b976b7e960aa89f1c648e09c59f894dd"
+    config: "ur_pk"
+    label_origin: "human_gold"
+    domain: "external_read_benchmark"
+    license_id: "CC-BY-4.0"
+    evaluation_only: true
+
+  csalt_voice:
+    owner: "CSALT / WER-We-Stand"
+    url: "https://huggingface.co/datasets/urdu-asr/csalt-voice"
+    hf_repo: "urdu-asr/csalt-voice"
+    revision: "6f0c4fdeea94c77b4b64c4b88d5887e087566a5f"
+    config: "default"
+    label_origin: "human_gold"
+    domain: "conversational_benchmark"
+    license_id: "COLING-2025-Benchmark"
+    evaluation_only: true
