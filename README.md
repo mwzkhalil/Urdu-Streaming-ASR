@@ -1,5 +1,12 @@
 # Urdu Streaming ASR
 
+
+<!-- URDU_ASR_BRANDING_START -->
+[![Model](https://img.shields.io/badge/Hugging%20Face-Model-F4C44E?logo=huggingface&logoColor=black)](https://huggingface.co/mahwizzzz/Urdu-Streaming-Zipformer-20M)
+[![Combined data](https://img.shields.io/badge/Hugging%20Face-Dataset-F4C44E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/mahwizzzz/Urdu-Streaming-ASR-Data)
+[![Inference](https://img.shields.io/badge/Inference-ONNX%20FP32%20%7C%20INT8-145C45)](#file-transcription)
+[![License](https://img.shields.io/badge/Source%20license-Apache--2.0-285C7A)](LICENSE)
+<!-- URDU_ASR_BRANDING_END -->
 ### Compact Urdu Speech Recognition with Zipformer
 
 An open-source Urdu automatic speech recognition project
@@ -115,6 +122,12 @@ Microphone input is supported through the
 `--microphone` CLI option, subject to an available audio
 device and supported runtime.
 
+<!-- URDU_ASR_FIGURE_START -->
+![FLEURS word error rate versus model parameters](assets/urdu-streaming-asr-fleurs-parameters.png)
+
+*FLEURS model-size comparison. Interpret WER values using the documented evaluation protocol and decoder settings; model size alone does not make the baselines strictly comparable.*
+<!-- URDU_ASR_FIGURE_END -->
+
 ## Evaluation Results
 
 The following results are for the selected released
@@ -180,6 +193,12 @@ cleaned source distribution.
 
 Training requires appropriately prepared dataset
 manifests and the compatible Icefall/k2 environment.
+
+<!-- URDU_ASR_DATA_START -->
+## Combined Training Data
+
+The curated training mixture contains **66,601 accepted utterances** (approximately **131.01 hours**). The [combined training metadata](https://huggingface.co/datasets/mahwizzzz/Urdu-Streaming-ASR-Data) provides source provenance and a manifest. It does **not** redistribute audio, transcriptions, or held-out evaluation recordings. See [data sources](docs/DATA_SOURCES.md) for upstream terms.
+<!-- URDU_ASR_DATA_END -->
 
 ## Project Structure
 
