@@ -1,7 +1,5 @@
 # Urdu Streaming ASR
 
-**Project author:** [Muhammad Mahwiz Khalil](https://github.com/mwzkhalil) (Proxima AI)
-
 
 
 <!-- URDU_ASR_BRANDING_START -->
@@ -15,17 +13,6 @@
 An open-source Urdu automatic speech recognition project
 built around a streaming Zipformer transducer.
 
-The repository provides training code, tokenizer assets,
-model configurations, evaluation evidence, and both
-file-based and streaming inference examples.
-
-| Specification | Details |
-|---|---|
-| Language | Urdu |
-| Architecture | Zipformer Transducer |
-| Audio input | 16 kHz mono |
-| Inference | ONNX FP32 / INT8 |
-| Decoding | Greedy search and modified beam search |
 
 ## Model Weights
 
