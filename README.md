@@ -236,11 +236,6 @@ Bundled Icefall modules retain their original copyright and license notices in [
 
 ## Citation
 
-**Author:** Muhammad Mahwiz Khalil
-
-**Organization:** Proxima AI
-
-**Year:** 2026
 
 If you use this project's software, please cite:
 
