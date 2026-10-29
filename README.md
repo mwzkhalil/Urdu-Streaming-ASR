@@ -10,8 +10,6 @@
 <!-- URDU_ASR_BRANDING_END -->
 ### Compact Urdu Speech Recognition with Zipformer
 
-**Author and maintainer:** Muhammad Mahwiz Khalil ([mwzkhalil](https://github.com/mwzkhalil)) · Proxima AI
-
 An open-source Urdu automatic speech recognition project
 built around a streaming Zipformer transducer.
 
