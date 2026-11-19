@@ -310,13 +310,18 @@ def get_proc_mem_mib():
 rss_before_load, _ = get_proc_mem_mib()
 onnx_dir = Path({str(onnx_dir)!r})
 suffix = ".int8.onnx" if {use_int8!r} else ".onnx"
+
 rec = UrduStreamingRecognizer(
     encoder_path=onnx_dir / f"encoder{{suffix}}",
     decoder_path=onnx_dir / f"decoder{{suffix}}",
     joiner_path=onnx_dir / f"joiner{{suffix}}",
     tokens_path=onnx_dir / "tokens.txt",
     num_threads={num_threads},
+    decoding_method="modified_beam_search",
+    max_active_paths=4,
+    blank_penalty=0.25,
 )
+
 rss_after_load, _ = get_proc_mem_mib()
 items = {items_payload!r}
 first_audio = items[0]["audio_path"]
